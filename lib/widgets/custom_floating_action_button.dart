@@ -1,5 +1,5 @@
-
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:software_engineering_project/constans.dart';
 import 'package:software_engineering_project/widgets/add_note_bottom_sheet.dart';
 
@@ -26,7 +26,8 @@ class CustomFloatingActionButton extends StatelessWidget {
       shape: const CircleBorder(),
       backgroundColor: kPrimaryColor,
       child: const Icon(
-        Icons.add,
+        FontAwesomeIcons.plus,
+        size: 18,
         color: Colors.black,
       ),
     );

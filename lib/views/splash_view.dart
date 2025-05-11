@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import 'notes_view.dart';
 
@@ -48,7 +49,7 @@ class _SplashViewState extends State<SplashView> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Icon(
-              Icons.edit,
+              FontAwesomeIcons.penToSquare,
               size: 100,
               color: Colors.deepPurple,
             ),
@@ -66,6 +67,3 @@ class _SplashViewState extends State<SplashView> {
     );
   }
 }
-
-
-

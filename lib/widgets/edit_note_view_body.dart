@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:software_engineering_project/helpers.dart';
 import '../cubits/notes_cubit/notes_cubit.dart';
 import '../models/note_model.dart';
@@ -45,7 +46,8 @@ class _EditNoteViewBodyState extends State<EditNoteViewBody> {
                 Navigator.pop(context);
                 snackBarMessage(context, 'Your note is edited successfuly');
               },
-              icon: Icons.check,
+              icon: FontAwesomeIcons.check,
+              
               title: 'Edit Note',
             ),
             const SizedBox(height: 32),

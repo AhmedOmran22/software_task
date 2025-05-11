@@ -30,4 +30,4 @@ dev_dependencies:
 flutter_launcher_icons:
   android: true
   ios: true
-  # image_path: "assets/images/gemy.jpg"
+  image_path: "assets/images/post-it.png"
